@@ -1,0 +1,22 @@
+# binaries
+turnstile-bypass
+turnstile-bypass.exe
+*.exe
+*.test
+*.out
+
+# local config
+.env
+.env.local
+
+# logs
+*.log
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# keep proxies.txt tracked (it is the default list); ignore side files
+proxies.local.txt
+*.tmp
