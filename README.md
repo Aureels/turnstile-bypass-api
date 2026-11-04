@@ -406,7 +406,7 @@ scrape_configs:
 
 ## License
 
-MIT — use freely, no warranty.
+MIT — see [LICENSE](LICENSE).
 
 ## Disclaimer
 
