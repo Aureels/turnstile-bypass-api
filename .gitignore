@@ -1,22 +1,16 @@
-# binaries
-turnstile-bypass
-turnstile-bypass.exe
-*.exe
-*.test
-*.out
-
-# local config
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.log
+result*.json
+screens/
 .env
 .env.local
-
-# logs
-*.log
-
-# editor / OS
 .idea/
 .vscode/
 .DS_Store
-
-# keep proxies.txt tracked (it is the default list); ignore side files
 proxies.local.txt
 *.tmp
